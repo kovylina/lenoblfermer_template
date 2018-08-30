@@ -1,0 +1,22 @@
+.custom-social-button a {
+  color: $green;
+  text-decoration: none;
+  transition: 0.3s;
+  display: block;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.custom-social-button img {
+  height: 30px;
+  width: 30px;
+  fill: $green;
+  fill-rule: nonzero;
+  margin-right: 10px;
+}
+
+.custom-social-button p {
+  line-height: 30px;
+  display: flex;
+}

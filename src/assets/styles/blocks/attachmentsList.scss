@@ -1,0 +1,25 @@
+.attachmentsList table {
+  border-collapse: collapse;
+  border: 1px solid $light-grey;
+  box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  @include phones {
+    width: 100%;
+  }
+}
+
+.attachmentsList table th,
+.attachmentsList table td {
+  border: 1px solid $light-grey;
+  padding: 10px 15px;
+}
+
+.attachmentsList table a {
+  padding: 10px 15px;
+}
+
+.attachmentsList table caption {
+  margin-bottom: 10px;
+  font-family: "Oswald", Helvetica, sans-serif;
+  color: $green;
+}

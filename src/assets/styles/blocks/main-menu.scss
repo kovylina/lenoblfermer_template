@@ -1,0 +1,96 @@
+.main-menu-module {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.main-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  @include tablets {
+    flex-direction: column;
+  }
+}
+
+.main-menu li a {
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: 0.3s;
+  color: $text-color;
+  @include tablets {
+    color: #fff;
+  }
+}
+
+.main-menu li>a:hover,
+.main-menu li>a:focus {
+  background-color: $green;
+  color: #fff;
+}
+
+.main-menu li.current>a,
+.main-menu li.active>a {
+  background-color: $green;
+  color: #fff;
+}
+
+.main-menu li.parent>a:after {
+  content: "";
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-top-color: $light-grey;
+  border-bottom-width: 0px;
+  margin: 0 0 0 10px;
+}
+
+/* Выпадающие пункты */
+
+.main-menu li ul {
+  margin: 10px 15px;
+}
+
+.main-menu li ul li {
+  background: none;
+  margin: 0 0 5px;
+}
+
+.main-menu li ul li a {
+  padding: 0 0 0 15px;
+}
+
+.main-menu li ul li a::before {
+  content: "";
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-left-color: $light-grey;
+  border-right-width: 0px;
+  margin: 0 10px 0 0;
+}
+
+.main-menu li ul li a:hover {
+  color: $green;
+  text-decoration: underline;
+  background-color: transparent;
+  @include tablets {
+    color: #fff;
+  }
+}
+
+.main-menu li ul li.active a {
+  color: $green;
+  font-weight: bold;
+  @include tablets {
+    color: #fff;
+  }
+}
+
+.main-menu li ul li.current a {
+  background-color: transparent;
+}

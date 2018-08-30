@@ -1,0 +1,24 @@
+.items-more ol {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.items-more ol li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.items-more ol li a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid $light-grey;
+  &:hover {
+    color: #fff;
+    background: $green;
+  }
+}

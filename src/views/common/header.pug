@@ -1,0 +1,24 @@
+header.header(class="section")
+  .header__login
+    .container   
+      .hamburger
+        <jdoc:include type="modules" name="drawer" style="xhtml" />
+        button(type="buttons", aria-controls="fullscreen-nav" class="hamburger-menu--squeeze").hamburger-menu
+          span.hamburger-menu__box
+            span.hamburger-menu__inner        
+  
+  .header__hero
+    .container
+      .hero
+        .hero__logo
+          a.hero__logo-link(href="/")
+            img(class="hero__logo-img" src="/templates/fermertemplate/images/logo.png" 
+            alt="Ассоциация крестьянских (фермерских) хозяйств, личных подсобных хозяйств и кооперативов Ленинградской области и Санкт-Петербурга")
+        .hero__title
+          h1.hero__name Ассоциация крестьянских (фермерских) хозяйств, личных подсобных хозяйств и кооперативов Ленинградской области и Санкт-Петербурга
+
+  .header__menu
+    .container
+      <jdoc:include type="modules" name="menu" style="xhtml" />
+     
+

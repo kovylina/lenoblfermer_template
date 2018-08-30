@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+<name>fermertemplate</name>
+<creationDate>2016/03/29</creationDate>
+<author>lenoblfermer</author>
+<copyright>© copyright 2016 lenoblfermer</copyright>
+<license>GNU/GPL</license>
+<version>1.1</version>
+<description></description>
+<files>
+	<filename>favicon.ico</filename>
+	<filename>index.html</filename>
+	<filename>index.php</filename>
+	<folder>css</folder> 
+	<folder>images</folder> 
+  <folder>fonts</folder>
+  <folder>html</folder>  
+</files>
+<positions>
+	<position>drawer</position>
+	<position>logo</position>
+	<position>menu</position>
+	<position>top</position>
+	<position>showcase</position>   
+	<position>feature</position>  
+	<position>left</position>
+	<position>content</position>  
+  <position>breadcrumb</position>
+	<position>inset</position>
+	<position>right</position>
+	<position>login</position>
+	<position>about</position>
+	<position>contact</position>
+	<position>footer</position>
+	<position>levelup</position>
+	<position>copyright</position>
+</positions>
+	
+</extension>

@@ -1,0 +1,21 @@
+.hero {
+  display: flex;
+  align-items: center;
+  @include phones {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.hero__logo {
+  margin-right: 50px;
+  @include phones {
+    margin-right: 0;
+  }
+}
+
+.hero__name {
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}

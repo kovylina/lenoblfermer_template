@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic");
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald Light'), local('Oswald-Light'), url('../fonts/oswald/Oswaldlight.woff2') format('woff2'), url('../fonts/oswald/Oswaldlight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald Regular'), local('Oswald-Regular'), url('../fonts/oswald/Oswaldregular.woff2') format('woff2'), url('../fonts/oswald/Oswaldregular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald DemiBold'), local('Oswald-DemiBold'), url('../fonts/oswald/Oswalddemibold.woff2') format('woff2'), url('../fonts/oswald/Oswalddemibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald RegularItalic'), local('../fonts/oswald/Oswald-RegularItalic'), url('Oswaldregularitalic.woff2') format('woff2'), url('../fonts/oswald/Oswaldregularitalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald MediumItalic'), local('Oswald-MediumItalic'), url('../fonts/oswald/Oswaldmediumitalic.woff2') format('woff2'), url('../fonts/oswald/Oswaldmediumitalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald ExtraLightItalic'), local('Oswald-ExtraLightItalic'), url('../fonts/oswald/Oswaldextralightitalic.woff2') format('woff2'), url('../fonts/oswald/Oswaldextralightitalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald HeavyItalic'), local('Oswald-HeavyItalic'), url('../fonts/oswald/Oswaldheavyitalic.woff2') format('woff2'), url('../fonts/oswald/Oswaldheavyitalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald Heavy'), local('Oswald-Heavy'), url('../fonts/oswald/Oswaldheavy.woff2') format('woff2'), url('../fonts/oswald/Oswaldheavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald LightItalic'), local('Oswald-LightItalic'), url('../fonts/oswald/Oswaldlightitalic.woff2') format('woff2'), url('../fonts/oswald/Oswaldlightitalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald Medium'), local('Oswald-Medium'), url('../fonts/oswald/Oswaldmedium.woff2') format('woff2'), url('../fonts/oswald/Oswaldmedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url('../fonts/oswald/Oswaldextralight.woff2') format('woff2'), url('../fonts/oswald/Oswaldextralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald BoldItalic'), local('Oswald-BoldItalic'), url('../fonts/oswald/Oswaldbolditalic.woff2') format('woff2'), url('../fonts/oswald/Oswaldbolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald DemiBoldItalic'), local('Oswald-DemiBoldItalic'), url('../fonts/oswald/Oswalddemibolditalic.woff2') format('woff2'), url('../fonts/oswald/Oswalddemibolditalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald Bold'), local('Oswald-Bold'), url('../fonts/oswald/Oswaldbold.woff2') format('woff2'), url('../fonts/oswald/Oswaldbold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: local('Georgia Bold Italic'), local('Georgia-BoldItalic'), url('../fonts/Georgia/Georgia-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: local('Georgia Italic'), local('Georgia-Italic'), url('../fonts/Georgia/Georgia-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: local('Georgia Bold'), local('Georgia-Bold'), url('../fonts/Georgia/Georgia-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: local('Georgia'), url('../fonts/Georgia/Georgia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

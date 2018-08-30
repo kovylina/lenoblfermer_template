@@ -1,0 +1,115 @@
+.j2store-single-product {
+  padding: 20px;
+  box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-right: 10px;
+  @include phones {
+    margin-right: 0;
+  }
+}
+
+.j2store-products-row {
+  display: flex;
+  width: 100%;
+  @include phones {
+    flex-direction: column;
+  }
+}
+
+[class*="span4"] {
+  width: 33%;
+  @include phones {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.j2store-add-to-cart {
+  width: 100%;
+  margin: 0;
+}
+
+.j2store-cart-button {
+  width: 100%;
+}
+
+.j2store-cart-buttons .buttons-left {
+  display: flex;
+}
+
+.j2store-cart-buttons .buttons-left span {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-checkout-button {
+  display: inline-block;
+}
+
+.j2store_cart_button,
+.j2store-cart-buttons input,
+.cart-checkout-button a {
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: $green;
+  color: #fff;
+  font-family: "Oswald", Helvetica, sans-serif;
+  display: block;
+  min-width: 100px;
+  text-align: center;
+  width: auto;
+  &:hover {
+    background-color: $grey;
+  }
+}
+
+.j2store-cart-table {
+  border-collapse: collapse;
+  border: 1px solid $light-grey;
+  box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  @include phones {
+    width: 100%;
+  }
+}
+
+.j2store-cart-table th,
+.j2store-cart-table td {
+  border: 1px solid $light-grey;
+  padding: 10px 15px;
+}
+
+[class*="span6"] {
+  margin-bottom: 30px;
+}
+
+.cart-footer {
+  margin-bottom: 20px;
+}
+
+.checkout-content input {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  @include phones {
+    margin-left: 0;
+  }
+}
+
+#button-billing-address,
+#button-payment-method {
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: $green;
+  color: #fff;
+  font-family: "Oswald", Helvetica, sans-serif;
+  display: block;
+  min-width: 100px;
+  text-align: center;
+  width: auto;
+  &:hover {
+    background-color: $grey;
+  }
+}

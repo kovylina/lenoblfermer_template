@@ -1,0 +1,14 @@
+.btn-cancel {
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: $light-grey;
+  color: #fff;
+  font-family: "Oswald", Helvetica, sans-serif;
+  display: block;
+  min-width: 100px;
+  text-align: center;
+  &:hover {
+    background-color: $grey;
+  }
+}

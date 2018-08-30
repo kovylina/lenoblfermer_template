@@ -1,0 +1,13 @@
+extends ../main.layout.pug
+
+block content
+  .container
+    .content
+        | <jdoc:include type="message" />  
+        |         
+        | <?php if(JRequest::getVar('view') != "frontpage" ) : ?>
+        |   <jdoc:include type="component" /> 
+        | <?php endif; ?> 
+        | <jdoc:include type="modules" name="content" style="xhtml" />   
+        |   
+  

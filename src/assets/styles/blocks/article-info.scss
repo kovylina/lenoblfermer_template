@@ -1,0 +1,26 @@
+.article-info {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.article-info-term,
+.createdby,
+.hits,
+.category-name {
+  display: none;
+}
+
+.published {
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.article-info a {
+  color: $green;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

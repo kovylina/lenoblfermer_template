@@ -1,0 +1,30 @@
+.article-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.item-image {
+  display: flex;
+  width: 800px;
+  overflow: hidden;
+  flex-basis: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  @include tablets {
+    max-width: 700px;
+    width: 700px;
+  }
+  @include phones {
+    max-width: 300px;
+    width: 300px;
+  }
+}
+
+.item-image img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}

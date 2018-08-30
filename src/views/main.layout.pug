@@ -1,0 +1,36 @@
+| <?php
+|  defined( '_JEXEC' ) or die( 'Restricted access' );
+|  $app = JFactory::getApplication();
+|  $menu = $app->getMenu();   
+| ?>
+| <?php echo '<?'; ?>xml version="1.0" encoding="<?php echo $this->_charset ?>"?>
+|
+
+block variables
+
+doctype html
+html(lang="ru")
+  head
+    |
+    | <jdoc:include type="head" />
+    |
+    meta(charset="utf-8")
+    meta(content="ie=edge" http-equiv="x-ua-compatible")
+    meta(content="width=device-width, initial-scale=1" name="viewport")
+    link(rel='stylesheet' href='/templates/fermertemplate/css/template.min.css' type="text/css")
+  body
+    .wrapper
+      include ./common/header.pug
+      
+      section.main.section
+        block content
+      
+      include ./common/feature.pug
+
+      include ./common/showcase.pug      
+
+      include ./common/inset.pug  
+
+      include ./common/footer.pug
+
+    script(src='/templates/fermertemplate/scripts/main.bundle.js')

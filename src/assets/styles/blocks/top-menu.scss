@@ -1,0 +1,22 @@
+.top-menu {
+  display: flex;
+}
+
+.top-menu li {
+  margin-right: 20px;
+}
+
+.top-menu li:last-child {
+  margin-right: 0;
+}
+
+.top-menu__link {
+  color: $grey;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.top-menu__link:hover {
+  color: $green;
+}

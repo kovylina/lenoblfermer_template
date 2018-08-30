@@ -1,0 +1,11 @@
+.controls {
+  display: inline-block;
+  position: relative;
+}
+
+.controls-register {
+  display: flex;
+  .btn-primary {
+    margin-right: 10px;
+  }
+}

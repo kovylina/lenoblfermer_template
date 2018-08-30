@@ -1,0 +1,68 @@
+.footer {
+  background-color: $dark;
+  color: $grey;
+}
+
+.footer__row {
+  display: flex;
+  align-items: center;
+  @include phones {
+    flex-direction: column;
+  }
+}
+
+.footer__column {
+  width: 50%;
+  @include phones {
+    width: 100%;
+  }
+}
+
+.footer__copyright,
+.footer__author {
+  padding: 20px 15px;
+  @include phones {
+    text-align: center;
+  }
+}
+
+.footer__author a {
+  color: $green;
+  text-decoration: none;
+  transition: 0.3s;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.footer__contacts-title {
+  font-family: "Oswald", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footer__address address {
+  font-family: "Oswald", Helvetica, sans-serif;
+  color: #fff;
+  font-style: normal;
+}
+
+.footer__address strong {
+  font-weight: 300;
+  color: $grey;
+}
+
+.footer__address a {
+  color: $green;
+  text-decoration: none;
+  transition: 0.3s;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.footer__address p {
+  margin-bottom: 5px;
+}
