@@ -1,1 +1,1 @@
-#Шаблон joomla для сайте lenobltemplate.ru
+#Шаблон joomla для сайта lenoblfermer.ru
